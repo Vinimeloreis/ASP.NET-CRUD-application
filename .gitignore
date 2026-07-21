@@ -509,4 +509,4 @@ dist-ssr
 *.sw?
 
 # Folder i dont want in
-Resources
+Resources/
