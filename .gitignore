@@ -508,3 +508,5 @@ dist-ssr
 *.sln
 *.sw?
 
+# Folder i dont want in
+Resources

@@ -19,6 +19,7 @@ function Person() {
   const [editData, setEditData] = useState(null);
 
   useEffect(() => {
+    setLoading(true);
     try {
       const loadPeople = async () => {
         var peopleData = (await axios.get(BASE_URL)).data;

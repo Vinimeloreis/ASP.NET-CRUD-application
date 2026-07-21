@@ -63,8 +63,6 @@ const PersonList = ({ peopleList, onPersonEdit, onPersonDelete }) => {
             ))}
           </tbody>
         </table>
-
-        {/* No data */}
       </div>
     </div>
   );
